@@ -6,13 +6,13 @@ __pycache__/
 *$py.class
 .ipynb_checkpoints/
 
-# Dataset & Task Brief (do not push 1.8 GB dataset or recruiter brief)
+# Dataset & Task Brief
 data/
 *.zip
 *.tar.gz
 *.docx
 
-# Intermediate training checkpoints (keep veg_classifier.onnx and config.json!)
+# Intermediate training checkpoints
 models/*.pt
 models/*.pth
 artifacts/

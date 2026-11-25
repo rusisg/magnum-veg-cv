@@ -1,0 +1,22 @@
+# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Dataset & Task Brief (do not push 1.8 GB dataset or recruiter brief)
+data/
+*.zip
+*.tar.gz
+*.docx
+
+# Intermediate training checkpoints (keep veg_classifier.onnx and config.json!)
+models/*.pt
+models/*.pth
+artifacts/
+
+# OS files
+.DS_Store
+Thumbs.db
